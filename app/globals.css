@@ -17,6 +17,8 @@
   --cv-text: #e5e7eb;
   --cv-text-muted: #9ca3af;
   --cv-border: rgba(148, 163, 184, 0.35);
+  --cv-bg-glow-primary: rgba(99, 102, 241, 0.22);
+  --cv-bg-glow-accent: rgba(34, 211, 238, 0.16);
 }
 
 /* Animation design tokens – single source for motion */
@@ -197,12 +199,12 @@ body {
   margin: 0;
   background: radial-gradient(
       circle at top left,
-      rgba(99, 102, 241, 0.22),
+      var(--cv-bg-glow-primary),
       transparent 55%
     ),
     radial-gradient(
       circle at bottom right,
-      rgba(34, 211, 238, 0.16),
+      var(--cv-bg-glow-accent),
       transparent 55%
     ),
     var(--cv-background);
@@ -236,20 +238,6 @@ body {
 }
 
 /* Light theme overrides */
-[data-theme="light"] body {
-  background: radial-gradient(
-      circle at 20% 20%,
-      rgba(99, 102, 241, 0.08),
-      transparent 50%
-    ),
-    radial-gradient(
-      circle at 80% 80%,
-      rgba(34, 211, 238, 0.06),
-      transparent 50%
-    ),
-    var(--cv-background);
-}
-
 [data-theme="light"] .cv-header-bar {
   background-color: rgba(248, 250, 252, 0.9);
   border-color: var(--cv-border);
@@ -359,6 +347,72 @@ body {
 }
 [data-theme="light"] .cv-ring-offset {
   --tw-ring-offset-color: var(--cv-background);
+}
+
+/* Teal theme – palette (incl. bg glows) applied via CSS variables */
+[data-theme="teal"] body {
+  background: var(--cv-background);
+}
+
+[data-theme="teal"] .cv-header-bar {
+  background-color: rgba(6, 30, 41, 0.95);
+  border-color: var(--cv-border);
+  color: var(--cv-text);
+}
+
+[data-theme="teal"] .cv-header-bar .cv-nav-link-active {
+  color: var(--cv-text);
+}
+
+[data-theme="teal"] .cv-header-bar .cv-nav-link {
+  color: var(--cv-text-muted);
+}
+
+[data-theme="teal"] .cv-header-bar .cv-nav-link:hover {
+  color: var(--cv-text);
+}
+
+[data-theme="teal"] .cv-footer-bar {
+  background-color: rgba(6, 30, 41, 0.95);
+  border-color: var(--cv-border);
+  color: var(--cv-text-muted);
+}
+
+[data-theme="teal"] .cv-footer-bar .cv-footer-copy {
+  color: var(--cv-text);
+}
+
+[data-theme="teal"] .cv-nav-brand-name {
+  color: var(--cv-text);
+}
+
+[data-theme="teal"] .cv-nav-brand-tagline {
+  color: var(--cv-text-muted);
+}
+
+[data-theme="teal"] .cv-btn-secondary {
+  border-color: var(--cv-border);
+  background-color: var(--cv-surface-muted);
+  color: var(--cv-text);
+}
+
+[data-theme="teal"] .cv-btn-secondary:hover {
+  border-color: var(--cv-primary);
+  background-color: var(--cv-primary-soft);
+}
+
+[data-theme="teal"] .cv-ring-offset {
+  --tw-ring-offset-color: var(--cv-background);
+}
+
+[data-theme="teal"] .cv-gradient-text {
+  color: var(--cv-text);
+  background: none;
+}
+
+[data-theme="teal"] .cv-card {
+  background-color: var(--cv-surface);
+  background-image: none;
 }
 
 /* Theme-aware utilities – use these so light/dark both work */

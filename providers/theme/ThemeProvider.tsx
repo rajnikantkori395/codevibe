@@ -12,13 +12,16 @@ import {
 import {
   darkThemePalette,
   lightThemePalette,
+  tealThemePalette,
   paletteToCssVariables,
   type BrandPalette,
 } from "./theme-config";
 
-export type ThemeMode = "dark" | "light";
+export type ThemeMode = "dark" | "light" | "teal";
 
 const STORAGE_KEY = "codevibe-theme";
+
+const THEME_ORDER: ThemeMode[] = ["dark", "light", "teal"];
 
 type ThemeContextValue = {
   mode: ThemeMode;
@@ -37,8 +40,19 @@ type ThemeProviderProps = {
 function getStoredMode(): ThemeMode | null {
   if (typeof window === "undefined") return null;
   const stored = localStorage.getItem(STORAGE_KEY);
-  if (stored === "dark" || stored === "light") return stored;
+  if (stored === "dark" || stored === "light" || stored === "teal") return stored;
   return null;
+}
+
+function getPalette(mode: ThemeMode): BrandPalette {
+  switch (mode) {
+    case "light":
+      return lightThemePalette;
+    case "teal":
+      return tealThemePalette;
+    default:
+      return darkThemePalette;
+  }
 }
 
 export function ThemeProvider({
@@ -54,7 +68,7 @@ export function ThemeProvider({
     setMounted(true);
   }, []);
 
-  const palette = mode === "light" ? lightThemePalette : darkThemePalette;
+  const palette = getPalette(mode);
   const cssVariables = useMemo(
     () => paletteToCssVariables(palette),
     [palette],
@@ -77,7 +91,8 @@ export function ThemeProvider({
 
   const toggleTheme = useCallback(() => {
     setModeState((prev) => {
-      const next = prev === "dark" ? "light" : "dark";
+      const idx = THEME_ORDER.indexOf(prev);
+      const next = THEME_ORDER[(idx + 1) % THEME_ORDER.length];
       if (typeof window !== "undefined") {
         localStorage.setItem(STORAGE_KEY, next);
       }
