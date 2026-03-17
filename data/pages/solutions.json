@@ -1,0 +1,39 @@
+{
+  "eyebrow": "Solutions",
+  "title": "Reusable solution accelerators for real-world teams.",
+  "description": "We bring patterns and accelerators that reduce time-to-market and keep systems resilient as they grow.",
+  "cards": [
+    {
+      "title": "Modern Web Platforms",
+      "description": "Design systems, dashboards, admin portals, and customer-facing apps.",
+      "bullets": [
+        "Accessible UI and responsive layouts",
+        "Role-based access and audit trails",
+        "Performance and reliability practices"
+      ]
+    },
+    {
+      "title": "Cloud-Native Foundations",
+      "description": "Infra, CI/CD, and observability so teams can ship confidently.",
+      "bullets": [
+        "IaC and environment automation",
+        "Monitoring, logs, tracing, alerting",
+        "Cost visibility and operational guardrails"
+      ]
+    },
+    {
+      "title": "Data & AI Enablement",
+      "description": "Telemetry, analytics, and AI integration with pragmatic governance.",
+      "bullets": [
+        "Event tracking and product analytics",
+        "LLM-assisted workflows and copilots",
+        "Experimentation and feedback loops"
+      ]
+    }
+  ],
+  "cta": {
+    "label": "Discuss your solution",
+    "href": "/contact"
+  }
+}
+

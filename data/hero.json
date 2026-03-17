@@ -1,0 +1,42 @@
+{
+  "pillLabel": "CODEVIBE TECHNOLOGIES PRIVATE LTD",
+  "headline": "We design and ship modern software for the next decade.",
+  "description": "Codevibe partners with product teams to build secure, cloud-native platforms, SaaS products, and internal tools – from first sketch to global scale.",
+  "primaryCta": {
+    "label": "Schedule a discovery call",
+    "href": "/contact"
+  },
+  "secondaryCta": {
+    "label": "View services",
+    "href": "/services"
+  },
+  "badges": [
+    { "text": "Enterprise-grade delivery practices" },
+    { "text": "Cloud-native • AI-ready • Secure by design" }
+  ],
+  "dashboard": {
+    "title": "Delivery dashboard",
+    "subtitle": "Live snapshot",
+    "rows": [
+      {
+        "label": "Sprint health",
+        "value": "96% on-time delivery",
+        "status": "Stable"
+      },
+      {
+        "label": "Production uptime",
+        "value": "99.98%",
+        "sublabel": "12 months rolling"
+      },
+      {
+        "label": "Time to market",
+        "value": "8 weeks",
+        "sublabel": "Avg. MVP delivery"
+      }
+    ],
+    "engagements": {
+      "text": "Fintech · SaaS · Healthcare · Retail",
+      "badge": "Global clients"
+    }
+  }
+}

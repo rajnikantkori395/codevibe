@@ -1,0 +1,39 @@
+{
+  "eyebrow": "About Codevibe",
+  "title": "A product-minded IT partner built for modern delivery.",
+  "description": "Codevibe Technologies Private Limited helps teams design, build, and scale reliable software. We combine strong engineering fundamentals, SOLID design practices, and cloud-native thinking to deliver outcomes—not just code.",
+  "cards": [
+    {
+      "title": "How we work",
+      "description": "We embed with your team, align on outcomes, and ship in short, predictable iterations.",
+      "bullets": [
+        "Discovery → delivery → continuous improvement",
+        "Clear ownership and engineering standards",
+        "Transparent communication and reporting"
+      ]
+    },
+    {
+      "title": "Engineering quality",
+      "description": "Architecture that stays easy to change as your product evolves.",
+      "bullets": [
+        "SOLID principles and clean boundaries",
+        "Maintainable, testable codebases",
+        "Observability and reliability baked in"
+      ]
+    },
+    {
+      "title": "Security & trust",
+      "description": "We build with security-first habits and operational discipline.",
+      "bullets": [
+        "Secure-by-design mindset",
+        "Review-driven delivery and best practices",
+        "Documentation that scales with your team"
+      ]
+    }
+  ],
+  "cta": {
+    "label": "Start a conversation",
+    "href": "/contact"
+  }
+}
+

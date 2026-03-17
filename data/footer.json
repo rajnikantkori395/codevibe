@@ -1,0 +1,9 @@
+{
+  "companyName": "Codevibe Technologies Private Limited",
+  "tagline": "Crafting resilient, human‑centered digital products for ambitious teams across the globe.",
+  "links": [
+    { "href": "/privacy", "label": "Privacy" },
+    { "href": "/terms", "label": "Terms" },
+    { "href": "/contact", "label": "Contact" }
+  ]
+}

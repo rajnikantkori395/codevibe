@@ -1,0 +1,43 @@
+{
+  "eyebrow": "Let's talk",
+  "title": "Share a brief about your product, platform, or idea.",
+  "description": "We'll respond within two business days with next steps – most often a short discovery call to align on goals, timelines, and fit.",
+  "bulletPoints": [
+    "Product and platform teams seeking long-term partners",
+    "Early-stage founders validating new SaaS ideas",
+    "Enterprises modernising legacy systems or journeys"
+  ],
+  "formFields": [
+    {
+      "id": "name",
+      "name": "name",
+      "type": "text",
+      "label": "Name",
+      "placeholder": "Your name"
+    },
+    {
+      "id": "email",
+      "name": "email",
+      "type": "email",
+      "label": "Work email",
+      "placeholder": "you@company.com"
+    },
+    {
+      "id": "company",
+      "name": "company",
+      "type": "text",
+      "label": "Company",
+      "placeholder": "Your organisation"
+    },
+    {
+      "id": "project",
+      "name": "project",
+      "type": "textarea",
+      "label": "What would you like to build or improve?",
+      "placeholder": "Share a short description, current status, and any timelines you have in mind.",
+      "rows": 4
+    }
+  ],
+  "submitLabel": "Send message",
+  "consentText": "By submitting, you agree that we may store and process your information to contact you about your enquiry."
+}

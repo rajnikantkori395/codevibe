@@ -1,0 +1,20 @@
+{
+  "links": [
+    { "href": "/", "label": "Home" },
+    { "href": "/about", "label": "About" },
+    { "href": "/services", "label": "Services" },
+    { "href": "/solutions", "label": "Solutions" },
+    { "href": "/industries", "label": "Industries" },
+    { "href": "/careers", "label": "Careers" },
+    { "href": "/contact", "label": "Contact" }
+  ],
+  "brand": {
+    "name": "Codevibe",
+    "tagline": "Technologies",
+    "logoLabel": "CV"
+  },
+  "cta": {
+    "label": "Let's Talk",
+    "href": "/contact"
+  }
+}

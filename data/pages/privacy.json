@@ -1,0 +1,35 @@
+{
+  "eyebrow": "Legal",
+  "title": "Privacy Policy",
+  "description": "This policy explains how Codevibe Technologies Private Limited collects and uses information when you contact us or use our website.",
+  "updatedAt": "2026-03-16",
+  "sections": [
+    {
+      "title": "Information we collect",
+      "paragraphs": [
+        "We may collect information you submit via forms (such as name, email, company, and project details).",
+        "We may collect basic technical information (such as device and browser details) for security and performance purposes."
+      ]
+    },
+    {
+      "title": "How we use information",
+      "paragraphs": [
+        "To respond to enquiries, provide requested information, and communicate about potential engagements.",
+        "To maintain the security and integrity of our website and services."
+      ]
+    },
+    {
+      "title": "Data retention",
+      "paragraphs": [
+        "We retain enquiry information only as long as needed for communication, contractual, or legal purposes."
+      ]
+    },
+    {
+      "title": "Contact",
+      "paragraphs": [
+        "For privacy-related questions, please reach out through our contact page."
+      ]
+    }
+  ]
+}
+

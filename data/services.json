@@ -1,0 +1,34 @@
+{
+  "eyebrow": "What we do",
+  "title": "A focused partner for modern product and platform teams.",
+  "description": "Codevibe specialises in long-term partnerships with product, design, and engineering leaders who need a reliable extension of their core team – not just a vendor.",
+  "items": [
+    {
+      "title": "Product Engineering",
+      "description": "End-to-end product delivery – from discovery and UX to scalable cloud-native architecture and managed releases.",
+      "items": [
+        "Greenfield product builds",
+        "SaaS & multi-tenant platforms",
+        "Design systems & UI libraries"
+      ]
+    },
+    {
+      "title": "Cloud & Platform",
+      "description": "Secure, observable, cost-efficient infrastructure on AWS, Azure, or GCP with modern DevOps practices.",
+      "items": [
+        "Cloud-native migrations",
+        "Platform engineering",
+        "SRE & observability"
+      ]
+    },
+    {
+      "title": "Data & AI Enablement",
+      "description": "Combine your product telemetry and business data with AI to unlock better decisions and smarter experiences.",
+      "items": [
+        "Analytics foundations",
+        "LLM & AI integration",
+        "Experimentation frameworks"
+      ]
+    }
+  ]
+}

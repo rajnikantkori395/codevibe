@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Industries",
+  "title": "Where we bring the most impact.",
+  "description": "Deep product, compliance, and integration experience across transaction-heavy, reliability-critical domains.",
+  "items": [
+    {
+      "name": "Fintech & Banking",
+      "detail": "KYC workflows, digital lending journeys, risk dashboards, and regulatory-grade auditability."
+    },
+    {
+      "name": "B2B SaaS",
+      "detail": "Multi-tenant architectures, billing & metering, customer onboarding, and admin consoles."
+    },
+    {
+      "name": "Healthcare & Wellness",
+      "detail": "Patient portals, appointment systems, and integrations with EHR/EMR platforms."
+    },
+    {
+      "name": "Retail & D2C",
+      "detail": "Composable storefronts, loyalty platforms, and real-time inventory & pricing engines."
+    }
+  ]
+}

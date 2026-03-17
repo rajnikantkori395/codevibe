@@ -1,0 +1,11 @@
+{
+  "eyebrow": "Delivery in numbers",
+  "title": "Stable releases. Predictable delivery. Teams that enjoy working together.",
+  "description": "From architecture to QA, we apply proven engineering practices and SOLID design principles to keep your systems easy to evolve as your product grows.",
+  "items": [
+    { "label": "Projects delivered", "value": "60+" },
+    { "label": "Client NPS", "value": "78" },
+    { "label": "Avg. engagement", "value": "18 mo" },
+    { "label": "Production uptime", "value": "99.98%" }
+  ]
+}

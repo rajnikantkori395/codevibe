@@ -1,0 +1,32 @@
+{
+  "eyebrow": "Careers",
+  "title": "Build with us. Learn fast. Ship quality.",
+  "description": "We’re assembling a team of curious engineers and designers who care about fundamentals, reliability, and craft.",
+  "bullets": [
+    "Remote-friendly collaboration and ownership",
+    "Strong engineering principles and mentorship",
+    "Meaningful projects across industries"
+  ],
+  "cards": [
+    {
+      "title": "Frontend Engineer (React/Next.js)",
+      "description": "Build reliable UI systems and product experiences with strong fundamentals.",
+      "bullets": ["TypeScript + React patterns", "Accessibility and UX", "Performance-minded delivery"]
+    },
+    {
+      "title": "Backend Engineer (Node/Java)",
+      "description": "Design APIs and services that scale with clean architecture and observability.",
+      "bullets": ["API design and contracts", "Security and data integrity", "Testing and CI/CD"]
+    },
+    {
+      "title": "DevOps / Platform Engineer",
+      "description": "Create cloud-native foundations and operational excellence for teams.",
+      "bullets": ["IaC and pipelines", "Monitoring and incident readiness", "Cost and reliability governance"]
+    }
+  ],
+  "cta": {
+    "label": "Contact us to apply",
+    "href": "/contact"
+  }
+}
+
