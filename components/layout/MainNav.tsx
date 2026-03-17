@@ -171,7 +171,7 @@ export function MainNav({ nav }: MainNavProps) {
             className="absolute inset-0 h-full w-full bg-black/50"
             onClick={() => setIsMobileOpen(false)}
           />
-          <div className="absolute inset-y-0 right-0 flex h-full w-72 flex-col border-l border-slate-800/80 bg-slate-950/95 px-5 py-5 shadow-2xl">
+          <div className="absolute inset-y-0 right-0 flex h-full w-72 flex-col border-l cv-border-default bg-(--cv-surface)/95 px-5 py-5 shadow-2xl">
             <div className="mb-4 flex items-center justify-between">
               <div className="flex flex-col text-sm">
                 <span className="font-semibold cv-text">Navigation</span>
@@ -183,7 +183,7 @@ export function MainNav({ nav }: MainNavProps) {
                 type="button"
                 aria-label="Close menu"
                 onClick={() => setIsMobileOpen(false)}
-                className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-slate-700/70 bg-black/20 text-slate-200 cv-transition hover:bg-black/40"
+                className="inline-flex h-8 w-8 items-center justify-center rounded-lg border cv-border-default bg-(--cv-background)/40 cv-text cv-transition hover:bg-(--cv-background)/70"
               >
                 ✕
               </button>
@@ -201,8 +201,8 @@ export function MainNav({ nav }: MainNavProps) {
                     onClick={() => setIsMobileOpen(false)}
                     className={`flex items-center justify-between rounded-lg px-3 py-2 cv-transition ${
                       isActive
-                        ? "bg-slate-800/80 cv-text"
-                        : "cv-text-muted hover:bg-slate-800/60"
+                        ? "cv-bg-elevated cv-text"
+                        : "cv-text-muted hover:cv-bg-elevated"
                     }`}
                   >
                     <span>{link.label}</span>
